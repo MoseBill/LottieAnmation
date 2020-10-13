@@ -1,2 +1,2 @@
 # LottieAnmation
-裸体动画，牛逼的瞬间
+Lottie动画，牛逼的瞬间

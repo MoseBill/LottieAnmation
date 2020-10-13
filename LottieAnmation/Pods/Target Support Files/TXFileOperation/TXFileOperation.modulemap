@@ -1,0 +1,6 @@
+framework module TXFileOperation {
+  umbrella header "TXFileOperation-umbrella.h"
+
+  export *
+  module * { export * }
+}

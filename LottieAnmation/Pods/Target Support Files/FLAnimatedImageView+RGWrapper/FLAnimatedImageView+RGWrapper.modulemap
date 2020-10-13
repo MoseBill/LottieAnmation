@@ -1,0 +1,6 @@
+framework module FLAnimatedImageView_RGWrapper {
+  umbrella header "FLAnimatedImageView+RGWrapper-umbrella.h"
+
+  export *
+  module * { export * }
+}

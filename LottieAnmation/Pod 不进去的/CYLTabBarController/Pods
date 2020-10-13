@@ -1,0 +1,4 @@
+
+#  pod 'CYLTabBarController/Lottie' # 依赖Lottie库 # https://github.com/ChenYilong/CYLTabBarController
+
+不要用pod的原因：截止2020.10.9 未适配 iOS 13，且需要将Lottie 独立出来，免得版本冲突，对于MJRefresh + Lottie 也需要被引用

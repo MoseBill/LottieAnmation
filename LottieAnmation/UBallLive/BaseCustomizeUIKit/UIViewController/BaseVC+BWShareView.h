@@ -1,0 +1,31 @@
+//
+//  BaseVC+BWShareView.h
+//  MonkeyKingVideo
+//
+//  Created by Jobs on 2020/8/9.
+//  Copyright © 2020 Jobs. All rights reserved.
+//
+
+#import "BaseVC.h"
+
+typedef enum : NSUInteger {
+    BWShareViewStyle_1 = 0,//   有/无标题的单层分享
+    BWShareViewStyle_2//    有/无标题的双层分享
+} BWShareViewStyle;
+
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface BaseVC (BWShareView)
+
+/// 分享视图
+@property(nonatomic,strong)BWShareView *shareView;
+@property(nonatomic,assign)CGRect shareViewFrame;
+@property(nonatomic,strong)NSMutableArray *shareViewDataMutArr;
+@property(nonatomic,strong)NSMutableArray *shareViewDataMutSecArr;
+@property(nonatomic,assign)BWShareViewStyle bWShareViewStyle;
+@property(nonatomic,strong)NSString *shareTitle;
+
+@end
+
+NS_ASSUME_NONNULL_END
